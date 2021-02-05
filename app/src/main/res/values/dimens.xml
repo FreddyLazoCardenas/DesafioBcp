@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DP section -->
+
+    <!-- 0x section -->
+    <dimen name="dp_0_0">0dp</dimen>
+    <dimen name="dp_0_5">0.5dp</dimen>
+
+
+    <!-- 1x section -->
+    <dimen name="dp_1_1">1dp</dimen>
+    <dimen name="dp_1_2">2dp</dimen>
+    <dimen name="dp_1_3">3dp</dimen>
+    <dimen name="dp_1_4">4dp</dimen>
+    <dimen name="dp_1_5">5dp</dimen>
+    <dimen name="dp_1_6">6dp</dimen>
+    <dimen name="dp_1_7">7dp</dimen>
+    <dimen name="dp_1_8">8dp</dimen>
+    <dimen name="dp_1_9">9dp</dimen>
+    <dimen name="dp_1_10">10dp</dimen>
+    <dimen name="dp_1_11">11dp</dimen>
+    <dimen name="dp_1_12">12dp</dimen>
+
+
+    <!-- 3x section -->
+    <dimen name="dp_3_1">3dp</dimen>
+    <dimen name="dp_3_2">6dp</dimen>
+    <dimen name="dp_3_3">9dp</dimen>
+    <dimen name="dp_3_4">12dp</dimen>
+    <dimen name="dp_3_5">15dp</dimen>
+    <dimen name="dp_3_6">18dp</dimen>
+    <dimen name="dp_3_7">21dp</dimen>
+    <dimen name="dp_3_8">24dp</dimen>
+    <dimen name="dp_3_9">27dp</dimen>
+    <dimen name="dp_3_10">30dp</dimen>
+    <dimen name="dp_3_11">33dp</dimen>
+    <dimen name="dp_3_12">36dp</dimen>
+    <dimen name="dp_3_13">39dp</dimen>
+
+    <!-- 4x section -->
+    <dimen name="dp_4_1">4dp</dimen>
+    <dimen name="dp_4_2">8dp</dimen>
+    <dimen name="dp_4_3">12dp</dimen>
+    <dimen name="dp_4_4">16dp</dimen>
+    <dimen name="dp_4_5">20dp</dimen>
+    <dimen name="dp_4_6">24dp</dimen>
+    <dimen name="dp_4_7">28dp</dimen>
+    <dimen name="dp_4_8">32dp</dimen>
+    <dimen name="dp_4_9">36dp</dimen>
+    <dimen name="dp_4_10">40dp</dimen>
+    <dimen name="dp_4_11">44dp</dimen>
+    <dimen name="dp_4_12">48dp</dimen>
+
+    <!-- 5x section -->
+    <dimen name="dp_5_1">5dp</dimen>
+    <dimen name="dp_5_2">10dp</dimen>
+    <dimen name="dp_5_3">15dp</dimen>
+    <dimen name="dp_5_4">20dp</dimen>
+    <dimen name="dp_5_5">25dp</dimen>
+    <dimen name="dp_5_6">30dp</dimen>
+    <dimen name="dp_5_7">35dp</dimen>
+    <dimen name="dp_5_8">40dp</dimen>
+    <dimen name="dp_5_9">45dp</dimen>
+    <dimen name="dp_5_10">50dp</dimen>
+    <dimen name="dp_5_11">55dp</dimen>
+    <dimen name="dp_5_12">60dp</dimen>
+    <dimen name="dp_5_13">65dp</dimen>
+
+    <!-- 10x section -->
+    <dimen name="dp_10_1">10dp</dimen>
+    <dimen name="dp_10_2">20dp</dimen>
+    <dimen name="dp_10_3">30dp</dimen>
+    <dimen name="dp_10_4">40dp</dimen>
+    <dimen name="dp_10_5">50dp</dimen>
+    <dimen name="dp_10_6">60dp</dimen>
+    <dimen name="dp_10_7">70dp</dimen>
+    <dimen name="dp_10_8">80dp</dimen>
+    <dimen name="dp_10_9">90dp</dimen>
+    <dimen name="dp_10_10">100dp</dimen>
+    <dimen name="dp_10_11">110dp</dimen>
+    <dimen name="dp_10_12">120dp</dimen>
+    <dimen name="dp_10_13">130dp</dimen>
+    <dimen name="dp_10_14">140dp</dimen>
+    <dimen name="dp_10_15">150dp</dimen>
+    <dimen name="dp_10_16">160dp</dimen>
+    <dimen name="dp_10_17">170dp</dimen>
+    <dimen name="dp_10_18">180dp</dimen>
+    <dimen name="dp_10_40">400dp</dimen>
+
+    <!-- 25x section -->
+    <dimen name="dp_25_1">25dp</dimen>
+    <dimen name="dp_25_2">50dp</dimen>
+    <dimen name="dp_25_3">75dp</dimen>
+    <dimen name="dp_25_4">100dp</dimen>
+    <dimen name="dp_25_5">125dp</dimen>
+    <dimen name="dp_25_6">150dp</dimen>
+    <dimen name="dp_25_7">175dp</dimen>
+    <dimen name="dp_25_8">200dp</dimen>
+    <dimen name="dp_25_9">225dp</dimen>
+    <dimen name="dp_25_10">250dp</dimen>
+    <dimen name="dp_25_11">275dp</dimen>
+    <dimen name="dp_25_12">300dp</dimen>
+    <dimen name="dp_25_20">500dp</dimen>
+
+    <!-- Minus section -->
+    <dimen name="dp_5_1_minus">-5dp</dimen>
+    <dimen name="dp_5_2_minus">-10dp</dimen>
+    <dimen name="dp_5_3_minus">-15dp</dimen>
+    <!-- END DP section -->
+
+    <!-- SP section -->
+
+    <!-- 1x section -->
+    <dimen name="sp_1_13">13sp</dimen>
+    <dimen name="sp_1_15">15sp</dimen>
+    <dimen name="sp_1_17">17sp</dimen>
+    <dimen name="sp_1_19">19sp</dimen>
+    <dimen name="sp_1_25">25sp</dimen>
+    <dimen name="sp_1_45">45sp</dimen>
+
+
+    <!-- 2x section -->
+    <dimen name="sp_2_1">2sp</dimen>
+    <dimen name="sp_2_2">4sp</dimen>
+    <dimen name="sp_2_3">6sp</dimen>
+    <dimen name="sp_2_4">8sp</dimen>
+    <dimen name="sp_2_5">10sp</dimen>
+    <dimen name="sp_2_6">12sp</dimen>
+    <dimen name="sp_2_7">14sp</dimen>
+    <dimen name="sp_2_8">16sp</dimen>
+    <dimen name="sp_2_9">18sp</dimen>
+    <dimen name="sp_2_10">20sp</dimen>
+    <dimen name="sp_2_11">22sp</dimen>
+    <dimen name="sp_2_12">24sp</dimen>
+    <dimen name="sp_2_13">26sp</dimen>
+    <dimen name="sp_2_14">28sp</dimen>
+    <dimen name="sp_2_15">30sp</dimen>
+    <dimen name="sp_2_16">32sp</dimen>
+    <dimen name="sp_2_17">34sp</dimen>
+    <dimen name="sp_2_18">36sp</dimen>
+    <dimen name="sp_2_20">40sp</dimen>
+
+    <!-- END SP section -->
+
+</resources>

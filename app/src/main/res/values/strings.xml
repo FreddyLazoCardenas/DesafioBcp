@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DesafioBcp</string>
+    <string name="you_send">Tu envías</string>
+    <string name="you_receive">Tu recibes</string>
+    <string name="currency_one">Dolares</string>
+    <string name="currency_two">Soles</string>
+    <string name="do_operation">Empieza tu operación</string>
+    <string name="exchange_rate">Tasa de cambio : %s</string>
+    <string name="top_missing">Top Value is missing</string>
+    <string name="bottom_missing">Bottom Value is missing</string>
+    <string name="input_value_missing">Input Value Missing</string>
+</resources>

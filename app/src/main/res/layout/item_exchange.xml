@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_10_8">
+
+
+    <ImageView
+        android:id="@+id/flagImageView"
+        android:layout_width="@dimen/dp_10_7"
+        android:layout_height="@dimen/dp_10_6"
+        android:layout_marginStart="@dimen/dp_10_5"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/united_kingdom" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/nameCountryTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_10_2"
+        android:layout_marginEnd="@dimen/dp_10_2"
+        android:ellipsize="end"
+        android:layout_marginTop="@dimen/dp_5_1"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_2_8"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/flagImageView"
+        app:layout_constraintTop_toTopOf="@+id/flagImageView"
+        tools:text="Peru" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/exchangeValueTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_10_2"
+        android:maxLines="1"
+        android:textColor="@color/gris"
+        android:textSize="@dimen/sp_2_8"
+        tools:text="1 EUR = 1.000 EUR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/nameCountryTextView"
+        app:layout_constraintTop_toBottomOf="@+id/nameCountryTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

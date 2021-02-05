@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextInputLayoutStyle" parent="Widget.Design.TextInputLayout">
+        <item name="backgroundColor">@color/white</item>
+        <item name="errorTextColor">@color/purple_500</item>
+        <item name="android:textColorHint">@color/gris</item>
+        <item name="hintTextColor">@color/gris</item>
+        <item name="boxStrokeErrorColor">@color/purple_700</item>
+        <item name="errorIconDrawable">@null</item>
+    </style>
+
+</resources>
