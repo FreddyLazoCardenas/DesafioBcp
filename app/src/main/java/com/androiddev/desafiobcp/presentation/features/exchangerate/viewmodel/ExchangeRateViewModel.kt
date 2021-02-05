@@ -37,7 +37,7 @@ class ExchangeRateViewModel @Inject constructor(private val getExchangeRatesUseC
 
     var topValue = MutableLiveData<ExchangeRateModel?>()
     var bottomValue = MutableLiveData<ExchangeRateModel?>()
-
+    var shouldConsumeData = MutableLiveData(false)
 
     fun listExchangeData() {
         viewModelScope.launch {

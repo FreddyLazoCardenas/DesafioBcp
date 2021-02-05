@@ -69,15 +69,18 @@ class ExchangeRateFragment : BaseFragment(), View.OnLongClickListener, View.OnCl
     }
 
     private fun itemSelected(model: ExchangeRateModel) {
-        with(binding) {
-            if (model.fromTop) {
-                topCurrencyTextView.text = model.currencyName
-                viewmodel.topValue.value = model
-            } else {
-                bottomCurrencyTextView.text = model.currencyName
-                viewmodel.bottomValue.value = model
+        if (viewmodel.shouldConsumeData.value == true) {
+            viewmodel.shouldConsumeData.value = false
+            with(binding) {
+                if (model.fromTop) {
+                    topCurrencyTextView.text = model.currencyName
+                    viewmodel.topValue.value = model
+                } else {
+                    bottomCurrencyTextView.text = model.currencyName
+                    viewmodel.bottomValue.value = model
+                }
+                setExchangeRate()
             }
-            setExchangeRate()
         }
     }
 
@@ -100,6 +103,7 @@ class ExchangeRateFragment : BaseFragment(), View.OnLongClickListener, View.OnCl
     override fun onLongClick(v: View?): Boolean {
         when (v?.id) {
             R.id.topCurrencyTextView -> {
+                viewmodel.shouldConsumeData.value = true
                 val action =
                     ExchangeRateFragmentDirections.actionExchangeRateFragmentToExchangeRateListFragment(
                         true
@@ -107,6 +111,7 @@ class ExchangeRateFragment : BaseFragment(), View.OnLongClickListener, View.OnCl
                 findNavController().navigate(action)
             }
             R.id.bottomCurrencyTextView -> {
+                viewmodel.shouldConsumeData.value = true
                 val action =
                     ExchangeRateFragmentDirections.actionExchangeRateFragmentToExchangeRateListFragment(
                         false
